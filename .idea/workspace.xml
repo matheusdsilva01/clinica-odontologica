@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec18c188-b6d2-4d7a-b85a-eaa37f9e428d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/create.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/ClinicaOdontoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/configuration/ConfigurationJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/controller/ConsultaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/controller/DentistaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/controller/PacienteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/model/Consulta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/model/Dentista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/model/Endereco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/model/Paciente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/service/ConsultaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/service/DentistaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/service/EnderecoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/service/IDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/service/PacienteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/service/impl/ConsultaServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/service/impl/DentistaServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/service/impl/EnderecoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/service/impl/PacienteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/util/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/digitalhouse/clinicaodonto/ClinicaOdontoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/digitalhouse/clinicaodonto/DentistaServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/digitalhouse/clinicaodonto/PacienteServiceTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="20kQiDfv8oO2XpH2lOHUFVwOOqr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/clinica-odontologica-v2" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Patrick\Desktop\Back\Grandes Projetos\clinica-odontologica\src\main\java\com\digitalhouse\clinicaodonto\service" />
+      <recent name="C:\Users\Adriano\Downloads\clinica-odonto\src\main\java\com\digitalhouse\clinicaodonto" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.digitalhouse.clinicaodonto" />
+      <recent name="com.digitalhouse.clinicaodonto.service.impl" />
+      <recent name="com.digitalhouse.clinicaodonto.service" />
+      <recent name="com.digitalhouse.clinicaodonto.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ClinicaOdontoApplication">
+    <configuration name="ClinicaOdontoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.digitalhouse.clinicaodonto.ClinicaOdontoApplication" />
+      <module name="clinica-odontologica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.digitalhouse.clinicaodonto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DentistaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="clinica-odonto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.digitalhouse.clinicaodonto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.digitalhouse.clinicaodonto" />
+      <option name="MAIN_CLASS_NAME" value="com.digitalhouse.clinicaodonto.DentistaServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PacienteServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="clinica-odonto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.digitalhouse.clinicaodonto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.digitalhouse.clinicaodonto" />
+      <option name="MAIN_CLASS_NAME" value="com.digitalhouse.clinicaodonto.PacienteServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.digitalhouse.clinicaodonto in clinica-odonto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="clinica-odonto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.digitalhouse.clinicaodonto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.digitalhouse.clinicaodonto" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClinicaOdontoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec18c188-b6d2-4d7a-b85a-eaa37f9e428d" name="Changes" comment="" />
+      <created>1636586231650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636586231650</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="51303d25-213e-4ecc-8a05-3858d5ee102e">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/Patrick/Desktop/Back-end/clinica-odontologica/src/main/resources/static" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
