@@ -11,12 +11,28 @@ public class Consulta {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     private Paciente paciente;
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     private Dentista dentista;
     @Temporal(TemporalType.TIMESTAMP)
     private Date date = new Date(System.currentTimeMillis());
+
+    public Consulta(Integer id, Paciente paciente, Dentista dentista, Date date) {
+        this.id = id;
+        this.paciente = paciente;
+        this.dentista = dentista;
+        this.date = date;
+    }
+
+    public Consulta(Paciente paciente, Dentista dentista, Date date) {
+        this.paciente = paciente;
+        this.dentista = dentista;
+        this.date = date;
+    }
+
+    public Consulta() {
+    }
 
     public Integer getId() {
         return id;

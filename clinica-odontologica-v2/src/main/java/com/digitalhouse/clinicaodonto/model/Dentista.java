@@ -1,6 +1,7 @@
 package com.digitalhouse.clinicaodonto.model;
 
 import javax.persistence.*;
+import java.util.Optional;
 
 @Entity
 @Table(name = "tb_dentista")
@@ -12,8 +13,26 @@ public class Dentista {
     private String nome;
     private String sobrenome;
     private Integer matricula;
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     private Endereco endereco;
+
+    public Dentista(Integer id, String nome, String sobrenome, Integer matricula, Endereco endereco) {
+        this.id = id;
+        this.nome = nome;
+        this.sobrenome = sobrenome;
+        this.matricula = matricula;
+        this.endereco = endereco;
+    }
+
+    public Dentista(String nome, String sobrenome, Integer matricula, Endereco endereco) {
+        this.nome = nome;
+        this.sobrenome = sobrenome;
+        this.matricula = matricula;
+        this.endereco = endereco;
+    }
+
+    public Dentista() {
+    }
 
     public Integer getId() {
         return id;

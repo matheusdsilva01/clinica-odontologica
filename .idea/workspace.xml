@@ -5,36 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec18c188-b6d2-4d7a-b85a-eaa37f9e428d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/ClinicaOdontoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/configuration/ConfigurationJDBC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/controller/ConsultaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/controller/DentistaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/controller/PacienteController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/model/Consulta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/model/Dentista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/model/Endereco.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/model/Paciente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/service/ConsultaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/service/DentistaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/service/EnderecoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/service/IDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/service/PacienteService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/service/impl/ConsultaServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/service/impl/DentistaServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/service/impl/EnderecoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/service/impl/PacienteServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/digitalhouse/clinicaodonto/util/Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/digitalhouse/clinicaodonto/ClinicaOdontoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/digitalhouse/clinicaodonto/DentistaServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/digitalhouse/clinicaodonto/PacienteServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica-odontologica-v1/src/test/java/com/digitalhouse/clinicaodonto/ClinicaOdontoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica-odontologica-v2/src/main/java/com/digitalhouse/clinicaodonto/controller/ConsultaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-odontologica-v2/src/main/java/com/digitalhouse/clinicaodonto/controller/ConsultaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica-odontologica-v2/src/main/java/com/digitalhouse/clinicaodonto/model/Consulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-odontologica-v2/src/main/java/com/digitalhouse/clinicaodonto/model/Consulta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica-odontologica-v2/src/main/java/com/digitalhouse/clinicaodonto/model/Dentista.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-odontologica-v2/src/main/java/com/digitalhouse/clinicaodonto/model/Dentista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica-odontologica-v2/src/main/java/com/digitalhouse/clinicaodonto/model/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-odontologica-v2/src/main/java/com/digitalhouse/clinicaodonto/model/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica-odontologica-v2/src/main/java/com/digitalhouse/clinicaodonto/model/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-odontologica-v2/src/main/java/com/digitalhouse/clinicaodonto/model/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica-odontologica-v2/src/main/java/com/digitalhouse/clinicaodonto/service/DentistaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-odontologica-v2/src/main/java/com/digitalhouse/clinicaodonto/service/DentistaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinica-odontologica-v2/src/main/java/com/digitalhouse/clinicaodonto/service/EnderecoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinica-odontologica-v2/src/main/java/com/digitalhouse/clinicaodonto/service/EnderecoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -19,7 +19,7 @@ public class ConsultaController {
 
     @Autowired
     public ConsultaController(ConsultaService consultaService) {
-        this.consultaService = ConsultaController.this.consultaService;
+        this.consultaService = consultaService;
     }
 
     @PostMapping()

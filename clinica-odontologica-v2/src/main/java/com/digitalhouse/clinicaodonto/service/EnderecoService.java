@@ -2,8 +2,8 @@ package com.digitalhouse.clinicaodonto.service;
 
 import com.digitalhouse.clinicaodonto.model.Endereco;
 import com.digitalhouse.clinicaodonto.repository.EnderecoRepository;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,31 +13,37 @@ import java.util.Optional;
 public class EnderecoService{
 
     private EnderecoRepository enderecoRepository;
+    Logger logger = Logger.getLogger(EnderecoService.class.getName());
 
     @Autowired
     public EnderecoService(EnderecoRepository enderecoRepository) {
         this.enderecoRepository = enderecoRepository;
     }
 
-    public ResponseEntity<Endereco> cadastrar(Endereco endereco) {
-        return ResponseEntity.ok(enderecoRepository.save(endereco));
+    public Endereco cadastrar(Endereco endereco) {
+        logger.debug("Cadastrando endereço");
+        return enderecoRepository.save(endereco);
     }
 
-    public ResponseEntity<Optional<Endereco>> buscar(Integer id) {
-            return ResponseEntity.ok(enderecoRepository.findById(id));
+    public Optional<Endereco> buscar(Integer id) {
+        logger.debug("Buscando endereço po id");
+        return enderecoRepository.findById(id);
     }
 
 
     public void excluir(Integer id) {
+        logger.debug("Excluindo endereço");
         enderecoRepository.deleteById(id);
     }
 
-    public ResponseEntity<List<Endereco>> buscarTodos() {
-        return ResponseEntity.ok(enderecoRepository.findAll());
+    public List<Endereco> buscarTodos() {
+        logger.debug("Buscando todos os endereços");
+        return enderecoRepository.findAll();
     }
 
-    public ResponseEntity<Endereco> atualizar (Endereco endereco){
-        return ResponseEntity.ok(enderecoRepository.save(endereco));
+    public Endereco atualizar (Endereco endereco){
+        logger.debug("Atualizando endereço");
+        return enderecoRepository.save(endereco);
     }
 
 }

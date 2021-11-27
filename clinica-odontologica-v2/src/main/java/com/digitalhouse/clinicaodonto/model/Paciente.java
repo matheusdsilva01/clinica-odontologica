@@ -15,8 +15,26 @@ public class Paciente {
     private String rg;
     @Temporal(TemporalType.TIMESTAMP)
     private Date dataCadastro = new Date(System.currentTimeMillis());
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     private Endereco endereco;
+
+    public Paciente(Integer id, String nome, String sobrenome, String rg, Date dataCadastro) {
+        this.id = id;
+        this.nome = nome;
+        this.sobrenome = sobrenome;
+        this.rg = rg;
+        this.dataCadastro = dataCadastro;
+    }
+
+    public Paciente(String nome, String sobrenome, String rg, Date dataCadastro) {
+        this.nome = nome;
+        this.sobrenome = sobrenome;
+        this.rg = rg;
+        this.dataCadastro = dataCadastro;
+    }
+
+    public Paciente() {
+    }
 
     public Integer getId() {
         return id;
