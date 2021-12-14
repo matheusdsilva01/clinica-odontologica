@@ -5,6 +5,7 @@ import com.digitalhouse.clinicaodonto.repository.EnderecoRepository;
 import com.digitalhouse.clinicaodonto.service.EnderecoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -21,6 +22,7 @@ public class EnderecoController {
         this.enderecoService = enderecoService;
     }
 
+    @GetMapping
     public ResponseEntity <List<Endereco>> getAllEndereco(){
         return ResponseEntity.ok(enderecoService.buscarTodos());
     }

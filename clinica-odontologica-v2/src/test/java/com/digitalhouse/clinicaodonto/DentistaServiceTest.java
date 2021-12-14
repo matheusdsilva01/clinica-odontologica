@@ -38,9 +38,9 @@ public class DentistaServiceTest {
         Assert.assertTrue(dentistaService.buscar(1).isEmpty());
     }
 
-    @Test
-    public void deletarDentista() {
-        dentistaService.excluir(1);
-        Assert.assertTrue(dentistaService.buscar(1).isEmpty());
-    }
+//    @Test
+//    public void deletarDentista() {
+//        dentistaService.excluir(1);
+//        Assert.assertTrue(dentistaService.buscar(1).isEmpty());
+//    }
 }

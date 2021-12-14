@@ -1,6 +1,7 @@
 package com.digitalhouse.clinicaodonto.controller;
 
 
+import com.digitalhouse.clinicaodonto.exception.ResourceNotFoundException;
 import com.digitalhouse.clinicaodonto.model.Dentista;
 import com.digitalhouse.clinicaodonto.service.DentistaService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -42,8 +43,13 @@ public class DentistaController {
     }
 
     @DeleteMapping("/{id}")
-    public void excluir (@PathVariable Integer id) {
+    public void excluir (@PathVariable Integer id) throws ResourceNotFoundException {
         dentistaService.excluir(id);
+    }
+
+    @ExceptionHandler({ResourceNotFoundException.class})
+    public ResponseEntity<String> processarBadRequestException(ResourceNotFoundException e) {
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
     }
 
 

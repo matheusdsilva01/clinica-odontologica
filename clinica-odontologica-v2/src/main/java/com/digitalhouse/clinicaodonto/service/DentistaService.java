@@ -1,5 +1,6 @@
 package com.digitalhouse.clinicaodonto.service;
 
+import com.digitalhouse.clinicaodonto.exception.ResourceNotFoundException;
 import com.digitalhouse.clinicaodonto.model.Dentista;
 import com.digitalhouse.clinicaodonto.repository.DentistaRepository;
 import org.apache.log4j.Logger;
@@ -33,7 +34,10 @@ public class DentistaService {
     }
 
 
-    public void excluir(Integer id) {
+    public void excluir(Integer id) throws ResourceNotFoundException {
+        if(dentistaRepository.getById(id)==null) {
+            throw new ResourceNotFoundException("Dentista não encontrado");
+        }
         logger.debug("Excluindo dentista");
         dentistaRepository.deleteById(id);
     }
